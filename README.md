@@ -5,3 +5,4 @@ development throught the school semester.
 
 This project is designed for a college student persona
 
+Jacob Harrison is a Sophmore at Maryville University and is studying Cyber Secuirty. His hobby is building computers and playing golf.
