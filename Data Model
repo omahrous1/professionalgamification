@@ -1,0 +1,14 @@
+Add Points Screen
+- Dictionary used for storing each activity and the points associated with that activity 
+- Labels represtenting each activity 
+- Button to go back to home screen 
+
+Proof Screen
+- Struct for personal submission 
+- Text Field for description
+- Text Field / Image Field for Proof
+- Button to go back to add points screen
+- Label created from the activity clicked from previous screen, pulls from dictionary 
+
+Submission Screen
+- Accesses student struct and chagnes the points variable
