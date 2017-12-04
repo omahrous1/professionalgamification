@@ -11,4 +11,15 @@ Proof Screen
 - Label created from the activity clicked from previous screen, pulls from dictionary 
 
 Submission Screen
-- Accesses student struct and chagnes the points variable
+- Accesses student struct and changes the points variable
+
+Home Screen 
+- Accesses student struct
+- Button to access Leaderboard, Student Profile, and Add points
+- Student name and variable for points at the top of the screen
+
+
+Student Profile 
+- Array based on recent activities 
+- Accessing Student Profile struct, which changes the information
+- Variables for the name and points
