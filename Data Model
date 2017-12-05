@@ -27,3 +27,9 @@ Student Profile
 - Array based on recent activities 
 - Accessing Student Profile struct, which changes the information
 - Variables for the name and points
+
+Leaderboard screens
+- Dictionary to store the student names and their total points
+- Array to store dictionary of student names in a specific order (greatest to smallest)
+- constant to show title of leaderboard at top of screen
+- buttons to go back and to go to home
