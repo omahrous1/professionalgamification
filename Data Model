@@ -2,6 +2,7 @@ Add Points Screen
 - Dictionary used for storing each activity and the points associated with that activity 
 - Labels represtenting each activity 
 - Button to go back to home screen 
+- Access student struct to show name and points at the top of the screen
 
 Proof Screen
 - Struct for personal submission 
@@ -12,6 +13,9 @@ Proof Screen
 
 Submission Screen
 - Accesses student struct and changes the points variable
+- Show a image view of the submission being completed
+- Button to take user back to add points
+- Button to take user back to home screen
 
 Home Screen 
 - Accesses student struct
