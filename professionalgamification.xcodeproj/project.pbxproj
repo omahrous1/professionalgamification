@@ -12,6 +12,8 @@
 		07A142DE1FCA5B86006530A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A142DC1FCA5B86006530A4 /* Main.storyboard */; };
 		07A142E01FCA5B86006530A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A142DF1FCA5B86006530A4 /* Assets.xcassets */; };
 		07A142E31FCA5B86006530A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A142E11FCA5B86006530A4 /* LaunchScreen.storyboard */; };
+		1F94DB321FE4583300E2565C /* StudentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94DB311FE4583300E2565C /* StudentData.swift */; };
+		1F94DB341FE4594600E2565C /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94DB331FE4594600E2565C /* CreateAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		07A142DF1FCA5B86006530A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07A142E21FCA5B86006530A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07A142E41FCA5B86006530A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F94DB311FE4583300E2565C /* StudentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentData.swift; sourceTree = "<group>"; };
+		1F94DB331FE4594600E2565C /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				07A142D81FCA5B86006530A4 /* AppDelegate.swift */,
 				07A142DA1FCA5B86006530A4 /* ViewController.swift */,
 				07A142DC1FCA5B86006530A4 /* Main.storyboard */,
+				1F94DB331FE4594600E2565C /* CreateAccount.swift */,
+				1F94DB311FE4583300E2565C /* StudentData.swift */,
 				07A142DF1FCA5B86006530A4 /* Assets.xcassets */,
 				07A142E11FCA5B86006530A4 /* LaunchScreen.storyboard */,
 				07A142E41FCA5B86006530A4 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				07A142DB1FCA5B86006530A4 /* ViewController.swift in Sources */,
 				07A142D91FCA5B86006530A4 /* AppDelegate.swift in Sources */,
+				1F94DB321FE4583300E2565C /* StudentData.swift in Sources */,
+				1F94DB341FE4594600E2565C /* CreateAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
