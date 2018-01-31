@@ -24,10 +24,18 @@ class CreateAccount: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    var studentData: StudentData!
     
+    func setData()
+    {
+        studentData.firstName = firstName.text!
+        print(studentData.firstName)
+        
+    }
+    @IBAction func submit(_ sender: UIButton) {
+        setData()
+    }
     
-    
-
     /*
     // MARK: - Navigation
 

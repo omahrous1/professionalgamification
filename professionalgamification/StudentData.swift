@@ -8,9 +8,18 @@
 
 import Foundation
 
-struct StudentData
+class StudentData
 {
-    var studentName: String
+    var firstName: String 
+    var lastName: String
     var studentEmail: String
     var studentPoints: Int
+    
+    init(firstName: String, lastName: String, studentEmail: String, studentPoints: Int){
+        self.firstName = firstName
+        self.lastName = lastName
+        self.studentEmail = studentEmail
+        self.studentPoints = studentPoints
+    }
+    
 }

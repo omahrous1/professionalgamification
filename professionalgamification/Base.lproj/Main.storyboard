@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -137,6 +137,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create"/>
                                 <connections>
+                                    <action selector="submit:" destination="CzE-nt-5k5" eventType="touchUpInside" id="b1x-Ju-Rpt"/>
                                     <segue destination="Rmm-9O-RLA" kind="show" id="6C3-j9-K7h"/>
                                 </connections>
                             </button>
@@ -145,6 +146,7 @@
                         <viewLayoutGuide key="safeArea" id="jth-Xh-pck"/>
                     </view>
                     <connections>
+                        <outlet property="email" destination="RuK-fa-SFa" id="FOI-wN-9m6"/>
                         <outlet property="firstName" destination="5d5-Dp-ki3" id="PvW-bq-iKs"/>
                         <outlet property="lastName" destination="PWH-2R-KoF" id="bPg-so-45l"/>
                     </connections>
@@ -492,6 +494,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Exn-1S-e8k"/>
-        <segue reference="mXI-bx-0FW"/>
+        <segue reference="6C3-j9-K7h"/>
     </inferredMetricsTieBreakers>
 </document>
