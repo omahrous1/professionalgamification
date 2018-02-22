@@ -12,8 +12,25 @@
 		07A142DE1FCA5B86006530A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A142DC1FCA5B86006530A4 /* Main.storyboard */; };
 		07A142E01FCA5B86006530A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A142DF1FCA5B86006530A4 /* Assets.xcassets */; };
 		07A142E31FCA5B86006530A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A142E11FCA5B86006530A4 /* LaunchScreen.storyboard */; };
+		07A2F026203CBF950023EAD1 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2F025203CBF950023EAD1 /* Activity.swift */; };
+		07A2F028203CC1AB0023EAD1 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2F027203CC1AB0023EAD1 /* ProfileScreen.swift */; };
+		07E1A6F12033829A00CD3FF0 /* StudyAbroadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A6F02033829A00CD3FF0 /* StudyAbroadViewController.swift */; };
+		07E1A6F32033844600CD3FF0 /* InterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A6F22033844600CD3FF0 /* InterviewViewController.swift */; };
+		07E1A6F5203384AB00CD3FF0 /* JobShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A6F4203384AB00CD3FF0 /* JobShadowViewController.swift */; };
+		07E1A6F7203384EF00CD3FF0 /* NetworkingEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A6F6203384EF00CD3FF0 /* NetworkingEventViewController.swift */; };
+		07E1A6F92033855700CD3FF0 /* StudentAthleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A6F82033855700CD3FF0 /* StudentAthleteViewController.swift */; };
+		07E1A6FB203385A000CD3FF0 /* MeetBoswellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A6FA203385A000CD3FF0 /* MeetBoswellViewController.swift */; };
+		07E1A6FD203385FE00CD3FF0 /* StudentOrgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A6FC203385FE00CD3FF0 /* StudentOrgViewController.swift */; };
+		07E1A6FF2033867F00CD3FF0 /* ProgressedYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A6FE2033867F00CD3FF0 /* ProgressedYearViewController.swift */; };
+		07E1A701203386D200CD3FF0 /* ThirdPartyCertificateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A700203386D200CD3FF0 /* ThirdPartyCertificateViewController.swift */; };
+		07E1A7032033872D00CD3FF0 /* CompleteLinkedinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A7022033872D00CD3FF0 /* CompleteLinkedinViewController.swift */; };
+		07E1A7052033878D00CD3FF0 /* FollowCommTwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A7042033878D00CD3FF0 /* FollowCommTwitterViewController.swift */; };
+		07E1A707203387BE00CD3FF0 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1A706203387BE00CD3FF0 /* OtherViewController.swift */; };
 		1F94DB321FE4583300E2565C /* StudentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94DB311FE4583300E2565C /* StudentData.swift */; };
 		1F94DB341FE4594600E2565C /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94DB331FE4594600E2565C /* CreateAccount.swift */; };
+		1FAE35BE202A4740009EED68 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE35BD202A4740009EED68 /* HomeScreen.swift */; };
+		1FB3A1C0202A4E4C00859458 /* PointsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3A1BF202A4E4C00859458 /* PointsScreen.swift */; };
+		1FB3A1C2202A538E00859458 /* Internship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3A1C1202A538E00859458 /* Internship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +41,25 @@
 		07A142DF1FCA5B86006530A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07A142E21FCA5B86006530A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07A142E41FCA5B86006530A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A2F025203CBF950023EAD1 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		07A2F027203CC1AB0023EAD1 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		07E1A6F02033829A00CD3FF0 /* StudyAbroadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyAbroadViewController.swift; sourceTree = "<group>"; };
+		07E1A6F22033844600CD3FF0 /* InterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewViewController.swift; sourceTree = "<group>"; };
+		07E1A6F4203384AB00CD3FF0 /* JobShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobShadowViewController.swift; sourceTree = "<group>"; };
+		07E1A6F6203384EF00CD3FF0 /* NetworkingEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEventViewController.swift; sourceTree = "<group>"; };
+		07E1A6F82033855700CD3FF0 /* StudentAthleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAthleteViewController.swift; sourceTree = "<group>"; };
+		07E1A6FA203385A000CD3FF0 /* MeetBoswellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetBoswellViewController.swift; sourceTree = "<group>"; };
+		07E1A6FC203385FE00CD3FF0 /* StudentOrgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentOrgViewController.swift; sourceTree = "<group>"; };
+		07E1A6FE2033867F00CD3FF0 /* ProgressedYearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressedYearViewController.swift; sourceTree = "<group>"; };
+		07E1A700203386D200CD3FF0 /* ThirdPartyCertificateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyCertificateViewController.swift; sourceTree = "<group>"; };
+		07E1A7022033872D00CD3FF0 /* CompleteLinkedinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteLinkedinViewController.swift; sourceTree = "<group>"; };
+		07E1A7042033878D00CD3FF0 /* FollowCommTwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowCommTwitterViewController.swift; sourceTree = "<group>"; };
+		07E1A706203387BE00CD3FF0 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 		1F94DB311FE4583300E2565C /* StudentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentData.swift; sourceTree = "<group>"; };
 		1F94DB331FE4594600E2565C /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		1FAE35BD202A4740009EED68 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		1FB3A1BF202A4E4C00859458 /* PointsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsScreen.swift; sourceTree = "<group>"; };
+		1FB3A1C1202A538E00859458 /* Internship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +95,23 @@
 				07A142D81FCA5B86006530A4 /* AppDelegate.swift */,
 				07A142DA1FCA5B86006530A4 /* ViewController.swift */,
 				07A142DC1FCA5B86006530A4 /* Main.storyboard */,
+				07A2F027203CC1AB0023EAD1 /* ProfileScreen.swift */,
+				07A2F025203CBF950023EAD1 /* Activity.swift */,
+				07E1A706203387BE00CD3FF0 /* OtherViewController.swift */,
+				07E1A7042033878D00CD3FF0 /* FollowCommTwitterViewController.swift */,
+				07E1A7022033872D00CD3FF0 /* CompleteLinkedinViewController.swift */,
+				07E1A700203386D200CD3FF0 /* ThirdPartyCertificateViewController.swift */,
+				07E1A6FE2033867F00CD3FF0 /* ProgressedYearViewController.swift */,
+				07E1A6FC203385FE00CD3FF0 /* StudentOrgViewController.swift */,
+				07E1A6FA203385A000CD3FF0 /* MeetBoswellViewController.swift */,
+				07E1A6F82033855700CD3FF0 /* StudentAthleteViewController.swift */,
+				07E1A6F6203384EF00CD3FF0 /* NetworkingEventViewController.swift */,
+				07E1A6F4203384AB00CD3FF0 /* JobShadowViewController.swift */,
+				07E1A6F22033844600CD3FF0 /* InterviewViewController.swift */,
+				07E1A6F02033829A00CD3FF0 /* StudyAbroadViewController.swift */,
+				1FB3A1C1202A538E00859458 /* Internship.swift */,
+				1FB3A1BF202A4E4C00859458 /* PointsScreen.swift */,
+				1FAE35BD202A4740009EED68 /* HomeScreen.swift */,
 				1F94DB331FE4594600E2565C /* CreateAccount.swift */,
 				1F94DB311FE4583300E2565C /* StudentData.swift */,
 				07A142DF1FCA5B86006530A4 /* Assets.xcassets */,
@@ -142,10 +193,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E1A6FB203385A000CD3FF0 /* MeetBoswellViewController.swift in Sources */,
+				07A2F028203CC1AB0023EAD1 /* ProfileScreen.swift in Sources */,
+				07E1A701203386D200CD3FF0 /* ThirdPartyCertificateViewController.swift in Sources */,
+				07E1A707203387BE00CD3FF0 /* OtherViewController.swift in Sources */,
+				1FB3A1C2202A538E00859458 /* Internship.swift in Sources */,
+				1FB3A1C0202A4E4C00859458 /* PointsScreen.swift in Sources */,
+				07E1A6F92033855700CD3FF0 /* StudentAthleteViewController.swift in Sources */,
+				07E1A7052033878D00CD3FF0 /* FollowCommTwitterViewController.swift in Sources */,
 				07A142DB1FCA5B86006530A4 /* ViewController.swift in Sources */,
+				07E1A6F7203384EF00CD3FF0 /* NetworkingEventViewController.swift in Sources */,
+				07E1A6F12033829A00CD3FF0 /* StudyAbroadViewController.swift in Sources */,
+				07A2F026203CBF950023EAD1 /* Activity.swift in Sources */,
+				07E1A6FD203385FE00CD3FF0 /* StudentOrgViewController.swift in Sources */,
+				07E1A6F5203384AB00CD3FF0 /* JobShadowViewController.swift in Sources */,
+				1FAE35BE202A4740009EED68 /* HomeScreen.swift in Sources */,
+				07E1A6F32033844600CD3FF0 /* InterviewViewController.swift in Sources */,
 				07A142D91FCA5B86006530A4 /* AppDelegate.swift in Sources */,
 				1F94DB321FE4583300E2565C /* StudentData.swift in Sources */,
+				07E1A7032033872D00CD3FF0 /* CompleteLinkedinViewController.swift in Sources */,
 				1F94DB341FE4594600E2565C /* CreateAccount.swift in Sources */,
+				07E1A6FF2033867F00CD3FF0 /* ProgressedYearViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

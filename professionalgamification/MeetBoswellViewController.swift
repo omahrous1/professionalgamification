@@ -1,42 +1,36 @@
 //
-//  CreateAccount.swift
+//  MeetBoswellViewController.swift
 //  professionalgamification
 //
-//  Created by Jacob Harrison on 12/15/17.
-//  Copyright © 2017 Maryville App Development. All rights reserved.
+//  Created by Omar Mahrous on 2/13/18.
+//  Copyright © 2018 Maryville App Development. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccount: UIViewController {
+class MeetBoswellViewController: UIViewController {
 
-    @IBOutlet weak var firstName: UITextField!
-    @IBOutlet weak var lastName: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    var tempUser:StudentData!
+    var temp: StudentData!
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
-
-    func setData()
-    {
-        tempUser = appDelegate.user
-        tempUser.firstName = firstName.text!
-        tempUser.lastName = lastName.text!
-//        appDelegate.user.lastName = lastName.text!
-    }
-    @IBAction func sumbitUserButton(_ sender: UIButton) {
-        setData()
-    }
     
+    @IBAction func submitActivity(_ sender: UIButton) {
+        temp = appDelegate.user
+        temp.studentPoints += 15
+        appDelegate.Activity.activityName = "MeetBoswell"
+        let addition = activity(activityName: appDelegate.Activity.activityName)
+        appDelegate.user.activityLog.append(addition)
+    }
+
     /*
     // MARK: - Navigation
 

@@ -1,42 +1,40 @@
 //
-//  CreateAccount.swift
+//  Internship.swift
 //  professionalgamification
 //
-//  Created by Jacob Harrison on 12/15/17.
-//  Copyright © 2017 Maryville App Development. All rights reserved.
+//  Created by Jacob Harrison on 2/6/18.
+//  Copyright © 2018 Maryville App Development. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccount: UIViewController {
+class Internship: UIViewController {
 
-    @IBOutlet weak var firstName: UITextField!
-    @IBOutlet weak var lastName: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    var temp: StudentData!
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+
+    
+    @IBAction func submitActivity(_ sender: UIButton) {
+        temp = appDelegate.user
+        temp.studentPoints += 50
+        appDelegate.Activity.activityName = "Internship"
+        let addition = activity(activityName: appDelegate.Activity.activityName)
+        appDelegate.user.activityLog.append(addition)
+    }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    var tempUser:StudentData!
-    let appDelegate = UIApplication.shared.delegate as! AppDelegate
-
-    func setData()
-    {
-        tempUser = appDelegate.user
-        tempUser.firstName = firstName.text!
-        tempUser.lastName = lastName.text!
-//        appDelegate.user.lastName = lastName.text!
-    }
-    @IBAction func sumbitUserButton(_ sender: UIButton) {
-        setData()
-    }
     
+
     /*
     // MARK: - Navigation
 

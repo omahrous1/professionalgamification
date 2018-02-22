@@ -12,10 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-   
+    var user: StudentData!
+    var Activity: activity!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        user = StudentData(firstName: "", lastName: "", studentPoints: 0, activityLog: [], activityName: "")
+        Activity = activity(activityName: user.activityName)
+        
         // Override point for customization after application launch.
-
         return true
     }
 
